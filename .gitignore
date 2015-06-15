@@ -1,0 +1,6 @@
+CarRent.Server.Host/bin/
+CarRent.Server.Host/obj/
+CarRent.Server.Interface/bin/
+CarRent.Server.Interface/obj/
+CarRent.Server.Impl/bin/
+CarRent.Server.Impl/obj/

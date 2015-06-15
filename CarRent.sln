@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{237D1918-9D68-4A54-8125-E36157313B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRent.Server.Interface", "CarRent.Server.Interface\CarRent.Server.Interface.csproj", "{192B5463-5459-4BF9-BF83-C6CD4A624170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRent.Server.Impl", "CarRent.Server.Impl\CarRent.Server.Impl.csproj", "{BE8D76D9-494B-4214-8DA7-6DCE613C7510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRent.Server.Host", "CarRent.Server.Host\CarRent.Server.Host.csproj", "{51EE8CB9-E13E-4576-9378-C3D8BED00DEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192B5463-5459-4BF9-BF83-C6CD4A624170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192B5463-5459-4BF9-BF83-C6CD4A624170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192B5463-5459-4BF9-BF83-C6CD4A624170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192B5463-5459-4BF9-BF83-C6CD4A624170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8D76D9-494B-4214-8DA7-6DCE613C7510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8D76D9-494B-4214-8DA7-6DCE613C7510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8D76D9-494B-4214-8DA7-6DCE613C7510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8D76D9-494B-4214-8DA7-6DCE613C7510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EE8CB9-E13E-4576-9378-C3D8BED00DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EE8CB9-E13E-4576-9378-C3D8BED00DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EE8CB9-E13E-4576-9378-C3D8BED00DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EE8CB9-E13E-4576-9378-C3D8BED00DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{192B5463-5459-4BF9-BF83-C6CD4A624170} = {237D1918-9D68-4A54-8125-E36157313B52}
+		{BE8D76D9-494B-4214-8DA7-6DCE613C7510} = {237D1918-9D68-4A54-8125-E36157313B52}
+		{51EE8CB9-E13E-4576-9378-C3D8BED00DEF} = {237D1918-9D68-4A54-8125-E36157313B52}
+	EndGlobalSection
+EndGlobal
